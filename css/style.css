@@ -1,0 +1,743 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrap{
+    background-image: url(/img/back/war.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #161616;
+}
+header{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(/img/back/boba.png);
+    height: 100vh;
+    background-size: cover;
+}
+.h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 150px;
+    margin-left: 7%;
+    margin-top: 114px;
+}
+.p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 430px;
+    margin-left: 7.5%;
+}
+.h1::first-letter{
+    color: #FFC600;
+}
+.p::first-letter{
+    color: #FFC600;
+}
+.h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 55px;
+    margin-left: 50px;
+    padding-top: 75px;
+    
+}
+.span{
+    color: #FFC600;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+.pabloson{
+    color: #FFC600;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+.pabloson:hover{
+    color: white;
+    border-bottom: 2px solid #FFC600;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+.firstpablo{
+    background-color: white;
+    padding-bottom: 100px;
+}
+.pabloid{
+    color: #717171;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+.nepabloid{
+    color: black;  
+    font-size: 80px;
+    margin-left: 200px;
+}
+.nepabloid::first-letter{
+    color: #FFC600;
+}
+.pablo1_1{
+    width: 50%;
+}
+.pablo1_2{
+    width: 50%;
+    border-left: 1px solid gray;
+    padding-left: 30px;
+}
+.pablo1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px; 
+}
+.pablo1_2_1{
+    font-style: italic;
+    color: #2C2C2C;
+    font-size: 18px;
+}
+.pablo1_2_2{
+    color: grey;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 90%;
+}
+.pablo1_1 , .pablo1_2{
+    margin-top: 50px;
+}
+.pablo1_1_1{
+    padding-top: 40px;
+}
+.nepabloid span{
+    border-bottom: 1px solid #2C2C2C;
+}
+.rer{
+    width: 45px;
+}
+.pablob1{
+    border: 3px solid #FEAC0F;
+    border-radius: 50%;
+    background-color: #E8E8E8;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pablobson{
+    font-size: 24px;
+    margin-top: 28px;
+}
+.pablob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.simba{
+    color: #515151;
+    font-style: italic;
+    width: 415px;
+    text-align: center;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.pablo2{
+    display: flex;
+    justify-content: space-around;
+}
+.sacondpablo{
+    background-color: white;
+}
+.ep{
+    font-size: 50px;
+    margin-left: 100px;
+}
+.ep::first-letter{
+    color: #FEAC0F;
+}
+.ea{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.eli{
+    list-style: none;
+}
+.eul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.ea:hover{
+    text-decoration: underline;
+    text-decoration-color: #FFC600;
+}
+.ep span{
+    border-bottom: 1px solid gray;
+}
+.pabligo{
+    display: flex;
+    margin-top: 30px;
+}
+.pabliga{
+    display: flex;
+    margin-top: 5px;
+    padding-bottom: 100px;
+}
+.imgs{
+    width: 25%;
+}
+.bee::first-letter{
+    color: #FEAC0F;
+}
+.nefirst{
+    background-color: white;
+}
+.bee{
+    font-size: 45px;
+}
+.bee span{
+    border-bottom: 1px solid #515151;
+}
+.op{
+    font-style: italic;
+    margin-top: 25px;
+}
+.note{
+    margin-left: 80px;
+}
+.notee{
+    width: 90%;
+}
+.up{
+    color: #717171;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.pablos{
+    width: 65%;
+    margin: auto;
+    margin-top: 40px;
+}
+.pablosoid{
+    display: flex;
+}
+.pablosoidos{
+    width: 50%;
+}
+.pablio{
+    font-size: 40px;
+}
+.pablio::first-letter{
+    font-size: 50px;
+}
+.pablio span{
+    font-size: 50px;
+}
+.perig{
+    font-style: italic;
+    margin-top: 25px;
+}
+.pablosi{
+    width: 50%;
+    margin-top: 60px;
+    padding: 0 2% 0 2%;
+}
+.long{
+    color: #717171;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.pablosoidos img{
+    width: 100%;
+}
+.git{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nefirst{
+    padding-bottom: 100px;
+}
+.veryfirst{
+    background-image: url(/img/pablomopablo.png);
+    background-size: cover;
+}
+.pablizi{
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+.pablizi::first-letter{
+    color: #FEAC0F;
+    font-size: 50px;
+}
+.pablizi span span{
+    font-size: 50px;
+}
+.pablizi span{
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+}
+.pabliziotitle{
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+}
+.pabliziotext{
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.pablizio{
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 75px;
+}
+.pablizi span::first-letter{
+    font-size: 50px;
+}
+.fifa{
+    border-bottom: none!important;
+}
+.pablizo{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin-left: 700px;
+    padding-bottom: 50px;
+}
+.nesecond{
+    background-color: white;
+}
+.yoyoyu::first-letter{
+    color: #FEAC0F;
+    font-size: 50px;
+}
+.yoyoyu{
+    font-size: 35px;
+    font-weight: bold;
+}
+.spanx span{
+    font-size: 50px;
+}
+.spanx{
+    border-bottom: 2px solid gray;
+}
+.pabtitle{
+    padding-top: 80px;
+    margin-left: 50px;
+}
+.px{
+    font-style: italic;
+    color: black;
+    width: 679px;
+    margin-top: 90px;
+}
+.xpx{
+    font-size: 14px;
+    color: #717171;
+    width: 684px;
+    margin-top: 20px;
+}
+.c{
+    font-weight: bold;
+    text-align: center;
+}
+.t{
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+}
+.imgos{
+    width: 182px;
+}
+.texta{
+    margin-top: 10px;
+}
+.imgx{
+    display: flex;
+    justify-content: space-between;
+    width: 907px;
+    margin-top: 30px;
+}
+.nesecond{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 150px;
+}
+.verysecond{
+    background-color: black;
+    
+}
+.titlv::first-letter{
+    color: #FEAC0F;
+    font-size: 50px;
+}
+.titlv{
+    color: white;
+    font-size: 40px;
+    padding-top: 55px;
+    margin-left: 55px;
+}
+.titlv span{
+    border-bottom: 3px solid gray;
+}
+.pelly{
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+.banana{
+    color: white;
+    margin-top: 15px;
+}
+.tax{
+    margin-top: 70px;
+    width: 790px;
+}
+.pucta{
+    margin-left: 100px;
+}
+.inf{
+    margin-left: 100px;
+    display: flex;
+}
+.pucta img{
+    width: 180px;
+    height: 180px;
+}
+.pv1{
+    color: white;
+    text-align: center;
+}
+.textet{
+    margin-top: 15px;
+}
+.pv2{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.verysecond{
+    padding-bottom: 150px;
+}
+.aaaaaa{
+    background-color: white;
+    display: flex;
+    padding-bottom: 120px;
+}
+.gunpe{
+    font-size: 40px;
+    border-bottom: 2px solid gray;
+    width: 105px;
+    padding-top: 50px;
+    margin-left: 60px;
+}
+.gunpe::first-letter{
+    color: #FFC600;
+    font-size: 50px;
+}
+.url{
+    list-style: none;
+    margin-left: 170px;
+}
+.lio a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.lio a:hover{
+    color: #FFC600;
+}
+.lio{
+    margin-top: 30px;
+}
+.memu{
+    margin-top: 50px;
+}
+.pio{
+    color: #FEAC0F;
+    font-size: 18px;
+}
+.loremu{
+    font-size: 14px;
+    font-style: italic;
+}
+.palic{
+    width: 215px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.dev{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.palic img{
+    width: 215px;
+}
+.mapa{
+    width: 45%;
+}
+.tekct{
+    width: 55%;
+    background-color: #2046B3;
+}
+.first{
+    display: flex;
+}
+.bout{
+    font-size: 35px;
+    color: white;
+    border-bottom: 3px solid #C5C5C5;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.bout::first-letter{
+    font-size: 50px;
+    color: #FEAC0F;
+}
+.bout span{
+    font-size: 50px;
+}
+::placeholder{
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+input{
+    background: none;
+    color: white;
+}
+.pascyd{
+    width: 450px;
+    height: 35px;
+    border: 2px solid #C5C5C5;
+}
+.vivo{
+    width: 190px;
+    height: 35px;
+    border: 2px solid #C5C5C5;
+}
+.emal{
+    width: 210px;
+    height: 35px;
+    border: 2px solid #C5C5C5;
+}
+.PS5{
+    width: 450px!important;
+    height: 76px!important;
+    resize: none;
+    border: 2px solid #C5C5C5;
+    background: none;
+    color: white;
+    margin-top: 12px;
+}
+.bigpolos{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.minipolos{
+    margin-top: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.baton{
+    width: 120px;
+    height: 35px;
+    background-color: #FFC600;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.vi{
+    color: white;
+    font-size: 18px;
+}
+.RTF{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.texti{
+    display: flex;
+    margin-bottom: 10px;
+}
+.texty{
+    display: flex;
+    margin-top: 10px;
+}
+.giha{
+    width: 80px;
+    color: white;
+    font-size: 18px;
+}
+.figa{
+    font-size: 14px;
+    display:flex;
+    align-items: center;
+    color: white;
+}
+.inf1{
+    margin-top: 40px;
+}
+.viv{
+    margin-top: 80px;
+    border-top: 2px solid #5F76BA;
+    width: 450px;
+}
+.book{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.book i{
+    color: #2046B3;
+}
+.viv{
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 60px;
+}
+.gih{
+    margin-left: 20px;
+}
+.dpf{
+    display: none;
+}
+iframe{
+    width: 100%;
+    height: 740px;
+}
+.futi{
+    width: 25%;
+    background-color: black;
+}
+.futi1{
+    width: 75%;
+}
+.h3y{
+    color: white;
+    font-size: 55px;
+    padding-top: 115px;
+    margin-left: 20px;
+}
+.h3y::first-letter{
+    color: #FEAC0F;
+}
+footer{
+    width: 90%;
+    margin: auto;
+}
+.mali{
+    list-style: none;
+    margin-top: 20px;
+}
+.mali a{
+    text-decoration: none;
+    color: white;
+}
+.mali a:hover{
+    color: #FEAC0F;
+}
+.ol{
+    margin-left: 23px;
+    margin-top: 34px;
+}
+.EZ{
+    border-color: #FEAC0F;
+    height: 2px;
+    width: 120px;
+    margin-top: 50px;
+}
+.voa{
+    margin-left: 23px;
+}
+.kilo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.via{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-top: 15px;
+}
+.kilo i{
+    font-size: 15px;
+}
+.kilo:hover{
+    background-color: #FEAC0F;
+}
+.book:hover{
+    background-color: #FEAC0F;
+}
+.voa{
+    padding-bottom: 35px;
+}
+.futi1{
+    background-image: url(/img/lala.png);
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    display: flex;
+}
+.mrp{
+    font-size: 100px;
+    color: white;
+    margin-top: 330px;
+    margin-left: 15px;
+}
+.mrp span{
+    color: #FFC600;
+}
+.pabloson{
+    transition: 0.5s;
+}
+.ea{
+    transition: 0.5s;
+}
+.lio a{
+    transition: 0.5s;
+}
+.mali a{
+    transition: 0.5s;
+}
+.pablizo{
+    margin-left: 35%!important;
+}

@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.dpf{
+    margin: auto;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    height: 40px;
+    position: relative;
+}
+#check-menu{
+    display: none;
+}
+.labels::first-letter{
+    color: #FFC600;
+}
+.labels{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+label{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    z-index: 2;
+    cursor: pointer;
+}
+.burger-line{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    transition: 0.5s;
+}
+.second2, .third3{
+    top: 18px;
+}
+.four4{
+    top: 28px;
+}
+.main-manu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform:translateY(100%) ;
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.btext{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-top: 1px solid white;
+
+}
+.btext:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #FFC600;
+}
+#check-menu:checked ~ .main-manu{
+    max-height: 500px;
+    font-size: 16px;
+}
+#check-menu:checked ~ .first1{
+    display: none;
+}
+#check-menu:checked ~ .four4{
+    display: none;
+}
+#check-menu:checked ~ .second2{
+    transform: rotate(45deg);
+}
+#check-menu:checked ~ .third3{
+    transform: rotate(-45deg);
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .miniwrap{
+        display: none;
+    }
+    .wrap{
+        background: none;
+    }
+    header{
+        margin-top: 0px;
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .dpf{
+        display: flex;
+    }
+    .h2{  
+        text-align: center;
+        margin-left: 1px;
+    }
+    main{
+        width: 100%;
+    }
+    .pablo1{
+        flex-direction: column;
+    }
+    .pablo1_2{
+        border: none;
+    }
+    .nepabloid{
+        margin-left: 0;
+    }
+    .pablo1_1{
+        width: 88%;
+    }
+    .pabloid{
+        margin-left: 0px;
+    }
+    .pablo1_1_1{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pablo1_1{
+        margin-top: 25px;
+    }
+    .pablo1_2{
+        width: 100%;
+        padding-left: 0;
+    }
+    .pablo1_2_1{
+        text-align: center;
+    }
+    .pablo1_2_2{
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .pablo2{
+        flex-direction: column;
+    }
+    .simba{
+        width: 100%;
+    }
+    .pablob{
+        margin-top: 50px;
+    }
+    .pablo1{
+        padding-bottom: 0px;
+    }
+    .ep{
+        font-size: 40px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .eul{
+        width: 100%;
+        margin-left: 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .eli{
+        margin-top: 10px;
+    }
+    .pabligo{
+        flex-wrap: wrap;
+    }
+    .pabliga{
+        flex-wrap: wrap;
+    }
+    .imgs{
+        width: 50%;
+    }
+    .bee{
+        font-size: 35px;
+        text-align: center;
+    }
+    .notee{
+        margin:auto;
+    }
+    .up{
+        text-align: center;
+    }
+    .op{
+        text-align: center;
+    }
+    .note{
+        margin: auto;
+    }
+    .pablosoid{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pablosoidos{
+        width: 100%;
+    }
+    .pablos{
+        width: 80%;
+    }
+    .pablosi{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .pablio{
+        text-align: center;
+    }
+    .perig{
+        text-align: center;
+    }
+    .long{
+        text-align: center;
+    }
+    .pablosoidos img{
+        margin-top: 30px;
+    }
+    .pablizo{
+        margin-left: 0;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .pablizio{
+        margin-left: 0;
+    }
+    .veryfirst{
+        background-position: center;
+    }
+    .nesecond{
+        flex-direction: column;
+    }
+    .pabtitle{
+        margin: auto;
+    }
+    .pabnotitle{
+        width: 100%;
+    }
+    .xpx{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .px{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .pabtitle{
+        padding-top: 40px;
+    }
+    .imgx{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .imgos{
+        width: auto ;
+    }
+    .picta img{
+        width: 177px;
+    }
+    .nesecond{
+        padding-bottom: 100px;
+    }
+    .pucta{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .tax{
+        width: auto;
+    }
+    .inf{
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .pelly{
+        text-align: center;
+    }
+    .banana{
+        text-align: center;
+    }
+    .verysecond{
+        padding-bottom: 100px;
+    }
+    .titlv{
+        text-align: center;
+        margin-left: 0;
+    }
+    .pabliga{
+        margin-top: 00;
+        padding-bottom: 75px;
+    }
+    .aaaaaa{
+        flex-direction: column;
+    }
+    .gunpe{
+        margin-left: 0;
+        margin: auto;
+    }
+    .url{
+       margin-left: 0; 
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+    .lio{
+        width: 45%;
+        text-align: center;
+    }
+    .dev{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .palic{
+        margin-left: 0;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .pio{
+        text-align: center;
+    }
+    .loreme{
+        text-align: center;
+    }
+    .loremu{
+        text-align: center;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+    }
+    .mapa{
+        width: 100%;
+    }
+    .tekct{
+        width: 100%;
+    }
+    .pascyd{
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    .bigpolos{
+        margin-left: 0;
+    }
+    .minipolos{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .vivo{
+        width: 40%;
+    }
+    .emal{
+        width: 40%;
+    }
+    .PS5{
+        width: 90%!important;
+        display: block;
+        margin: auto;
+        margin-top: 12px;
+    }
+    .baton{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .vi{
+        text-align: center;
+    }
+    .RTF{
+        margin-left: 0px;
+    }
+    .inf1{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .viv{
+        width: 100%;
+        justify-content: center;
+    }
+    .gih{
+        margin-left: 0;
+    }
+    .futi1{
+        display: none;
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .futi{
+        width: 100%;
+        height: 100%;
+    }
+    .h3y{
+        text-align: center;
+        margin-left: 0;
+        padding-top: 50px;
+    }
+    .mali{
+        text-align: center;
+        
+    }
+    .ol{
+        margin-left:0 ;
+    }
+    .EZ{
+        width: 90%;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .voa{
+        margin-left: 0;
+    }
+    .via{
+        width: 41%;
+        margin: auto;
+    }
+    .kilo{
+        width: 35px;
+        height: 35px;
+    }
+    .kilo i{
+        font-size: 24px;
+    }
+    
+
+}

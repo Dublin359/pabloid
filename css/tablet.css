@@ -1,0 +1,209 @@
+
+@media (min-width:768px) and (max-width:1024px) {
+    .miniwrap{
+        display: none;
+
+    }
+    .wrap{
+        background: none;
+    }
+    header{
+        width: 100%;
+        margin-top: 0;
+    }
+    .ul{
+        display: none;
+    }
+    .dpf{
+        display: block;
+        height: 50px;
+    }
+    .labels{
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    .btext{
+        font-size: 20px;
+    }
+    .h2{
+        text-align: center;
+        margin-left: 0;
+    }
+    .pablo1{
+        flex-direction: column;
+    }
+    .pablo1_1{
+        width: 100%;
+        margin: auto;
+    }
+    .pablo1_2{
+        border:none;
+        width: 90%;
+        padding: 0;
+        text-align: center;
+    }
+    .pablo1_2_1{
+        text-align: center;
+    }
+    .pablo1_2_2{
+        text-align: center;
+        width: 100%;
+    }
+    .pablo2{
+        flex-wrap: wrap;
+    }
+    .simba{
+        width: 100%;
+    }
+    .pablob{
+        width: 46%;
+    }
+    .eul{
+        width: 80%;
+    }
+    .note{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .op , .up{
+        text-align: center;
+    }
+    .pablos{
+        width: 100%;
+    }
+    .pablosoid{
+        flex-direction: column-reverse;
+    }
+    .pablosoidos{
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+    }
+    .pablosi{
+        width: 90%;
+        margin: auto;
+
+    }
+    .pablosoidos img{
+        width: 550px;
+        margin: auto;
+    }
+    main{
+        width: 100%;
+    }
+    .pablizio{
+        width: 35%;
+    }
+    .pablizo{
+        width: 100%;
+        margin-left: 0
+    }
+    .pablizi{
+        text-align: center ;
+    }
+    .nesecond{
+        flex-direction: column;
+    }
+    .pabtitle{
+        margin-left: 0;
+        text-align: center;
+    }
+    .px{
+        width: 80%;
+        margin: auto;
+        margin-top: 45px;
+        text-align: center;
+    }
+    .xpx{
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .picta img{
+        width: 225px;
+    }
+    .imgx{
+        flex-wrap: wrap;
+        width: 60%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .imgos{
+        width: 225px;
+    }
+    .texta{
+        margin-bottom: 10px;
+    }
+    .tax{
+        width: 60%;
+    }
+    .inf{
+        margin-left: 50px;
+    }
+    .pucta{
+        margin:auto;
+    }
+    .aaaaaa{
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    .guntitle{
+        display: flex;
+        justify-content: center;
+    }
+    .gunpe{
+        margin-left: 0;
+    }
+    .url{
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .memu{
+        width: 80%;
+        margin: auto;
+    }
+    .dev{
+        margin-left: 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .palic{
+        margin-left: 0
+    }
+    .first{
+        flex-direction: column-reverse;
+    }
+    .mapa{
+        width: 100%;
+    }
+    .tekct{
+        width: 100%;
+    }
+    iframe{
+        height: 500px;
+    }
+    footer{
+        width: 100%;
+    }
+    .futi{
+        width:35%;
+    }
+    .h3y{
+        padding-top: 70px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .mrp{
+        margin-top: 256px;
+        padding-bottom: 118px;
+    }
+    .via{
+        width: 40%;
+    }
+}  
